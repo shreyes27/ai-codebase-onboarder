@@ -1,0 +1,17 @@
+# Environment
+server/.env
+
+# Python
+server/venv/
+server/__pycache__/
+server/**/*.pyc
+
+# Runtime / generated
+server/cache/
+server/temp_repos/
+
+# Node
+server/node_modules/
+
+# Frontend build
+client/dist/
