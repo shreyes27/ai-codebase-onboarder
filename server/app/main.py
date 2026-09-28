@@ -19,7 +19,7 @@ app.add_middleware(
     allow_origins=[
     "http://localhost:5173",
     "http://localhost:4173",
-    "https://ai-codebase-onboarder-aev0672mf-shreyes27s-projects.vercel.app",
+    "https://ai-codebase-onboarder-h4730mj3n-shreyes27s-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
