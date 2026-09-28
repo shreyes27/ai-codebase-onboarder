@@ -116,7 +116,7 @@ function RepositoryPage({ onBack }) {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/onboard",
+        `${import.meta.env.VITE_API_BASE_URL}/api/onboard`,
         {
           method: "POST",
           headers: {

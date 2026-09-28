@@ -43,7 +43,7 @@ function Navbar({
     const loadStats = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/api/stats",
+          `${import.meta.env.VITE_API_BASE_URL}/api/stats`,
         )
 
         if (!response.ok) {
@@ -115,7 +115,9 @@ function Navbar({
           </button>
 
           <a
-            href="#"
+            href="https://github.com/shreyes27/ai-codebase-onboarder"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 text-[13px] text-zinc-500 transition-colors duration-200 hover:text-zinc-200"
             aria-label="Browse repository on GitHub"
           >
